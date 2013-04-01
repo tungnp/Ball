@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "BallImageView.h"
 @interface ViewController : UIViewController
-
+@property (strong, nonatomic) NSTimer* timer;
+@property (weak, nonatomic) IBOutlet UIView *secondView;
+@property (strong, nonatomic) BallImageView* ballImageView;
 @end

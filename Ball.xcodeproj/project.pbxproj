@@ -18,6 +18,8 @@
 		90C0EE261705B7C600874AAB /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0EE251705B7C600874AAB /* Default-568h@2x.png */; };
 		90C0EE291705B7C600874AAB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0EE281705B7C600874AAB /* ViewController.m */; };
 		90C0EE2C1705B7C600874AAB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C0EE2A1705B7C600874AAB /* ViewController.xib */; };
+		90C0EE331705B84200874AAB /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C0EE321705B84200874AAB /* ball.png */; };
+		90C0EE361705B88800874AAB /* BallImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C0EE351705B88800874AAB /* BallImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		90C0EE271705B7C600874AAB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		90C0EE281705B7C600874AAB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		90C0EE2B1705B7C600874AAB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		90C0EE321705B84200874AAB /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = SOURCE_ROOT; };
+		90C0EE341705B88800874AAB /* BallImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallImageView.h; sourceTree = "<group>"; };
+		90C0EE351705B88800874AAB /* BallImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +93,8 @@
 				90C0EE271705B7C600874AAB /* ViewController.h */,
 				90C0EE281705B7C600874AAB /* ViewController.m */,
 				90C0EE2A1705B7C600874AAB /* ViewController.xib */,
+				90C0EE341705B88800874AAB /* BallImageView.h */,
+				90C0EE351705B88800874AAB /* BallImageView.m */,
 				90C0EE161705B7C600874AAB /* Supporting Files */,
 			);
 			path = Ball;
@@ -96,6 +103,7 @@
 		90C0EE161705B7C600874AAB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				90C0EE321705B84200874AAB /* ball.png */,
 				90C0EE171705B7C600874AAB /* Ball-Info.plist */,
 				90C0EE181705B7C600874AAB /* InfoPlist.strings */,
 				90C0EE1B1705B7C600874AAB /* main.m */,
@@ -163,6 +171,7 @@
 				90C0EE241705B7C600874AAB /* Default@2x.png in Resources */,
 				90C0EE261705B7C600874AAB /* Default-568h@2x.png in Resources */,
 				90C0EE2C1705B7C600874AAB /* ViewController.xib in Resources */,
+				90C0EE331705B84200874AAB /* ball.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				90C0EE1C1705B7C600874AAB /* main.m in Sources */,
 				90C0EE201705B7C600874AAB /* AppDelegate.m in Sources */,
 				90C0EE291705B7C600874AAB /* ViewController.m in Sources */,
+				90C0EE361705B88800874AAB /* BallImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
